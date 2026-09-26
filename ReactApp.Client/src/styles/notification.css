@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f4f6f8;
+}
+
+.notification-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.notification-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .notification-table th,
+    .notification-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+    }
+
+    .notification-table th {
+        background-color: #1976d2;
+        color: white;
+    }
+
+.status-success {
+    color: green;
+    font-weight: bold;
+}
+
+.toast {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background: #ff5722;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    z-index: 9999;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.3);
+}
